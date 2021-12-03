@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+}
+body{
+    margin: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("wall.jpg");
+}
+h1{
+    font-size: 100px;
+    color: white;
+    font-weight: 100;    
+    animation: glow ease-in-out 1s alternate infinite;
+}
+sup{
+    font-size: 50px;
+}
+@keyframes glow { 
+    from {
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #e60073, 0 0 40px  #e60073, 0 0 50px  #e60073, 0 0 60px  #e60073, 0 0 70px  #e60073;
+    } to {
+        text-shadow: 0 0 20px white, 0 0 30px #e60073, 0 0 40px  #e60073, 0 0 50px  #e60073, 0 0 60px  #e60073, 0 0 70px  #e60073, 0 0 80px #e60073, ;
+    }
+}
